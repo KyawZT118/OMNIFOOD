@@ -1,0 +1,150 @@
+
+
+/* small phone and small tablet from 1023 to 1200px */
+@media only screen and (max-width:1200px){
+    .hero-text-box {
+        width: 100%;
+        padding:0 2%;
+      }
+    .row {
+        margin: 0 2%;
+    }
+      
+}
+
+/* small phone and small tablet from 767 to 1023px */
+@media only screen and (max-width:1023px){
+    section {
+        padding: 50px 0;
+      }
+    html {
+        
+        font-size: 15.5px;
+     
+    }
+    .long-para {
+        line-height: 145%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .steps-box:first-child{
+        margin-top: 10px;
+    }
+    .steps-box:last-child(){
+        margin-top: 10px;
+    }
+    .work-steps {
+        margin-bottom: 40px;
+    }
+    .work-steps:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    .app-iphone {
+        width: 50%;
+    }
+    .icon-small{
+        width:20px ;
+        margin-right: 5px;
+    }
+    .city-feature{
+        width: 100%;
+    }
+    .plan-box{
+        width: 100%;
+        margin-left: 0;
+    }
+    .plan-price{
+            font-size: 250%;
+    }
+    .content-form{
+        width: 70%;
+    }
+}
+
+
+/* small phone and small tablet from 480 to 767px */
+@media only screen and (max-width:767px){
+    body{
+        font-size: 16px;
+    }
+    section {
+        padding: 25px 0;
+    }
+    .row,
+    .hero-text-box{
+        padding: 0 4%;
+    }
+    .main-nav{
+        display: none;
+    }
+    .col{
+        width:100%;
+    }
+    h1{
+        font-size: 180%;
+    }
+    h2{
+        font-size: 140%;
+    }
+    .long-para {
+        
+        width: 100%;
+        margin-left: 0;
+        
+    }
+    .steps-box:first-child {
+        
+        text-align: center;
+       
+    }
+    .app-iphone{
+        width: 50%;
+    }
+    .work-steps div {
+        
+        
+        
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        padding: 5px;
+        text-align: center;
+        font-size: 120%;
+        float: left;
+        margin-right: 17px;
+    }
+    .work-steps {
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+    .work-steps:last-of-type{
+        margin-bottom: 40px;
+    }
+    .content-form{
+        width: 100%;
+    }
+    .plan-box{
+        margin-bottom: 15px;
+        width: 100%;
+        margin-left: 0;
+      }
+
+}
+
+/*small phone from 0 to 480px*/
+@media only screen and (max-width:480px){
+    .content-form{
+        width: 100%;
+    }
+    input[type=text],
+    input[type=email],
+    input[type=textarea],
+    select,
+    textarea{
+    width: 300px;
+}
+}
+
+
+
